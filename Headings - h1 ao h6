@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headings: H1 ao H6</title>
+</head>
+<body>
+    <h1>Titulo Principal (Mais importante)</h1>
+    <p>usado uma vez por página, geralmente para o nome do site ou assunto princiapl</p>
+    <h2>Subtítulo importante</h2>
+    <p>usado apra sações principais dentro do &lt;h1&gt;</p>
+    <h3>subtítulo de nivel medio</h3>
+    <p>usado para subseções dentro de um &lt;h2&gt;</p>
+    <h4>&lt;h4&gt;a&lt;h6&gt; títulos menos importantes</h4>
+    <p>usados para divisões ainda menores (arro usar além do h4)</p>
+</body>
+</html>
