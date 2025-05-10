@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags Html </title>
+    <style>
+        .img-maid {
+            width: 100px;
+            height: 100px;
+        }
+        .verme {
+            font-size: 25px;
+            color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tags</h1>
+    <p>
+        <b>negrito (&lt;b&gt;)</b> <br> 
+        <strong>deixar uma palavra mais forte(&lt;strong&gt;)</strong><br>
+        <i>italico (&lt;i&gt;)</i><br>
+        <em>dar enfase e italico (&lt;em&gt;)</em><br>
+        <a href="https://www.youtube.com" target="_blank">link</a>(&lt;a <b>href=</b>https://www.youtube.com"<b><i>target:</i></b>"_blank"&gt;) (href: qual referencia vai ser colocada (arquivos ou links de sites) target: importante para usar o <b>_blank</b> que abre o link em outra aba) <br>
+    <a href="https://www.youtube.com" target="_blank">
+        <img class="img-maid" src="img/00150.png" alt="pfp de empregada"></a> (&lt;img <i>src</i>='img/00150.png' <i>alt</i>='pfp de empregada') (src: pesquisa a img no computador ou link no google) (alt: descreva a imagem caso ela nao carregue) <br>
+        <del>deleltar msg para o pc</del> (&lt;del&gt;) tag semantica<br>
+        <ins>inserir mensagem</ins> (&lt;ins&gt;) tag semantica<br>
+        <s>riscar</s> (&lt;s&gt;) tag fisica<br>
+        <u>sublinhar</u> (&lt;u&gt;) tag fisica <br>
+        <small>deixa palavra pequena</small> (&lt;small&gt;)<br>
+        <sup>elevado</sup> (&lt;sup&gt;) (ex:2<sup>2</sup>) <br>
+        <sub>dexcer</sub> (&lt;sub&gt;) (ex: H<sub>2</sub>O) <br>
+        <q>citação</q> (&lt;q&gt;) (ex:<q>paia</q>) <br>
+    </p>
+    <h2>tags que não funcionam dentro &lt;p&gt;</h2>
+    <p>&lt;blockquote&gt;</p>
+    <blockquote>bloco de citação</blockquote>
+    <hr> (&lt;hr&gt; (linha horizontal))
+    <code>console.log</code> (&lt;code&gt;) (citar code de programação no texto) <br>
+<p>&lt;pre&gt; (vai deixar tudo pre formatado, como espaco e tals)</p>
+    <pre>
+    <code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;titl&gt; &lt;/title &gt;
+        &lt;/head &gt;
+        &lt;body &gt;
+            
+        &lt;/body &gt;
+        &lt;/html&gt;
+    </code>
+</pre>
+    <h2>containers</h2>
+<p>&lt;span&gt;(inline)</p>
+<p><span class='verme'>Lorem</span> ipsum dolor sit amet <span class='verme'>>consectetur adipisicing elit. Enim inventore magnam expedita quo natus sed, nesciunt similique ex, veritatis ducimus praesentium modi iure nam dicta asperiores!</span> Mollitia fugiat doloremque itaque!</p>
+<div class="verme">eu sou um bloco</div>
+    <h2>exemplo</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis <div class="verme">eu sou um bloco</div> deleniti cumque possimus magnam reprehenderit illo, molestias nobis? Eligendi beatae inventore odit error veritatis provident asperiores minus. Architecto, rerum dolor</p>
+</body>
+</html>
