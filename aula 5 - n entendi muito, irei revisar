@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="#">Home</a>
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque commodi natus, repellat eveniet voluptates culpa dolor praesentium expedita, debitis pariatur quas vitae facere voluptas odit nam quasi omnis veniam vero.</p>
+    </header>
+    <section>
+        <header>
+            <h2>Roupas femininas</h2>
+        </header>
+        <article>
+            <h3>Hearding 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quas minus itaque. Quis maxime unde ea debitis architecto? Sapiente nemo expedita officiis fugit accusantium dolorem voluptates commodi unde sunt tempora!</p>
+        </article>
+    </section>
+    <article>
+        <h2>Hearding 2</h2>
+        <section>
+            <header>
+                <h2>Hearding 2</h2>
+            </header>
+        </section>
+    </article>
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="#">Texto 1</a></li>
+                <li><a href="#">Texto 1</a></li>
+                <li><a href="#">Texto 1</a></li>
+                <li><a href="#">Texto 1</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <div>
+        <article>
+            <header>
+                <h3>Hearding 3</h3>
+                <div>oi</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consequuntur quo, porro cupiditate, voluptatem eveniet, labore quae ab fuga libero quidem iste recusandae officiis beatae quis. Tenetur molestiae sequi sunt.</p>
+            </header>
+        </article>
+    </div>
+    <footer>
+        Meu endereço
+    </footer>
+</body>
+</html>
