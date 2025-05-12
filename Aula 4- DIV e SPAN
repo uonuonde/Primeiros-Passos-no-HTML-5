@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIV e Span</title>
+    <style>
+        .div1 {
+            font-size: 25px;
+            color: crimson;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Div e Span</h1>
+    </header>
+    <main>
+        <article>
+            <h2>&lt;DIV&gt;</h2>
+            <ul>
+                <li type="circle"><b class="div1">O que faz:</b>É um <b>container genérico</b> usado para agrupar elementos e aplicar estilos ou scripts. Não tem significado semântico (não diz nada sobre o conteúdo).</li>
+            </ul>
+            <ul>
+                <li><b class="div1">Quando usar</b></li>
+                <li>Para criar layouts (como divisões de página).</li>
+                <li>Quando nenhuma outra tag semântica (como &lt;section&gt;, &lt;article&gt;) faz sentido</li>
+            </ul>
+            <ul>
+                <li><b class="div1">exemplo</b></li>
+            </ul>
+            <pre>
+                <code>
+    &lt;div class="container"&gt;
+&lt;h2&gt;Título&lt;/h2&gt;
+&lt;p&gt;Texto qualquer...&lt;/p&gt;
+    &lt;/div&gt;
+                </code>
+            </pre>
+            <h2>&lt;SPAN&gt;</h2>
+            <ul>
+                <li type="circle"><b class="div1">O que faz;</b></li>
+                <li>>É um container inline (não quebra linha) usado para estilizar ou manipular trechos específicos de texto ou elementos</li>
+                <li type="circle"><b class="div1">Quando usar;</b></li >
+                <li>Quando não há uma tag semântica mais específica (como &lt;strong&gt;, &lt;em&gt;).</li>
+                <li>Para aplicar CSS ou JavaScript a parte de um texto.</li>
+                <li><b class="div1">Exemplo</b></li>
+            </ul>
+            <pre>
+                <code>
+    &lt;p&gt;Este texto tem &lt;span style="color: red;"&gt;uma parte vermelha&lt;/span&gt;.&lt;/p&gt;
+                </code>
+            </pre>
+        </article>
+    </main>
+</body>
+</html>
