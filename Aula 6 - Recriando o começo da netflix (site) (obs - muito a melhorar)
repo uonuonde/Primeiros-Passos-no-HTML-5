@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: black;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top center;
+            background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/4eef44a6-68d9-4ab2-9102-e9c33dbd2f78/web/BR-pt-20250512-TRIFECTA-perspective_0c9810ad-6f76-4e26-9146-138f120aa9a2_large.jpg)
+        }
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: radial-gradient(circle, transparent , rgba(0,0,0,0.8)0%);
+            pointer-events: none;
+            z-index: -1;
+        }
+        header {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            align-items: center;
+            padding: 15px 0;
+            position: relative;
+            z-index: 1;
+        }
+        .home {
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+        .home a {
+            color: crimson;
+            text-decoration: none;
+        }
+        .enter {
+            padding:10px;
+            background-color: red;
+            font-size: 15px;
+            text-transform: uppercase;
+            text-align: center;
+            border-radius: 50px ; 
+        }
+        .enter a{
+            color: whitesmoke;
+            text-decoration: none;
+        }
+        .h1-menu{
+            color:aliceblue;
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 56px;
+            font-weight: 900;
+            height: 210px;
+            line-height: 70px;
+            margin-block-end: 16px;
+            margin-block-start: 0px;
+            margin-bottom: 16px;
+            margin-inline-end: 0px;
+            margin-inline-start: 0px;
+            margin-left: 0px;
+            margin-right:0px;
+            margin-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 0px;
+            text-size-adjust: 100%;
+            unicode-bidi: isolate;
+            width: 588px;
+        }
+        .main-menu{
+            box-sizing: border-box;
+            margin-left: 27%;
+            margin-top: 8%;
+            color: aliceblue;
+            display: block;
+            height: 254px;
+            text-align: center;
+            text-size-adjust:100%;
+            unicode-bidi:isolate;
+            width: 588px;
+        }
+        .p-menu{
+            font-size: 20px;
+        }
+        .h3-menu{
+            color: aliceblue;
+            font-size: 16px;
+        }
+        .div-form{
+            display: block;
+            box-sizing: border-box;
+            margin-left: 27%;
+            margin-top: 3%;
+            color: aliceblue;
+            height: 254px;
+            text-align: center;
+            text-size-adjust:100%;
+            unicode-bidi:isolate;
+            width: 588px;
+        }
+        .email {
+            box-sizing: border-box;
+            color: aliceblue;
+            cursor: default;
+            direction: ltr;
+            display: block;
+            font-size: 16px;
+            font-weight: 400;
+            height: 24px;
+            left: 16px;
+            line-height: 24px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            pointer-events: none;
+            position: absolute;
+            right: 16px;
+            text-align: center;
+            text-overflow: ellipsis;
+            text-size-adjust: 100%;
+            text-wrap: nowrap;
+            top: 16px;
+            width: 367px;
+            z-index: 1;
+        }
+        input[type="Email"]{
+            background-color: #1d1c1c5e;
+            color: #fff;
+            border: 1px solid #3f3e3e;
+            padding: 10px 15px;
+            margin-top:20px;
+            margin-right: 0px;
+            margin-left: 15px;
+            width: 390px;
+            height: 34px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input::placeholder{
+            color: #aaa;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .div-input{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .end{
+            display: block;
+            font-display: block;
+            background-color: crimson;
+            color: aliceblue;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 21px;
+            padding-top: 18px;
+            padding-bottom: 17px;
+            padding-left: 30px;
+            padding-right: 30px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-size-adjust: 100%;
+            text-align: top;
+            font-size: 16px;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="home">
+            <a href="#">Netflix</a>
+        </div>
+        <div class="enter">
+            <a href="#">Entrar</a>
+        </div>
+    </header>
+    <div class="main-menu">
+        <h1 class="h1-menu">Filmes, séries e muito mais, sem limites</h1>
+        <p class="p-menu">A partir de R$ 20,90, Cancele quando quiser</p>
+    </div>
+    <div>
+        <div class="div-form">
+            <form data-uia="email-form">
+                <h3 class="h3-menu">Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
+                    <div>
+                        <div class="div-input">
+                            <input type="email" placeholder="Email">
+                            <a href="#" class="end"><strong>Vamos lá ></strong></a>
+                        </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
